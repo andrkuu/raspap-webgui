@@ -3,8 +3,8 @@
 function getConfig()
 {
     $config = array(
-        'admin_user' => 'admin',
-        'admin_pass' => '$2y$10$YKIyWAmnQLtiJAy6QgHQ.eCpY4m.HCEbiHaTgN6.acNC6bDElzt.i'
+        'admin_user' => 'agility',
+        'admin_pass' => '$2y$10$S6MBSFhRi.Tr/4E6OjHfh.iAWw46BfLDt7FPDTc0VstQevAckW39m'
     );
 
     if (file_exists(RASPI_CONFIG . '/raspap.auth')) {
